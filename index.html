@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form id="sayisalLoto">
+        <label for="" id="sayi1"></label>
+        <input type="button" onclick="buton1">
+        <label for="" id="sayi2"></label>
+        <input type="button" onclick="buton2">
+        <label for="" id="sayi3"></label>
+        <input type="button" onclick="buton3">
+        <label for="" id="sayi4"></label>
+        <input type="button" onclick="buton4">
+        <label for="" id="sayi5"></label>
+        <input type="button" onclick="buton5">
+        <label for="" id="sayi6"></label>
+        <input type="button" onclick="buton6">
+        
+        <input type="button" id="btnSifirla" onclick="sifira()">
+    </form>
+    <script>
+    document.getElementById("sayi1").innerHTML=Math.floor(Math.random(1 * 100) + 1);
+    document.getElementById("sayi2").innerHTML=Math.floor(Math.random(1 * 100) + 1);
+    document.getElementById("sayi3").innerHTML=Math.floor(Math.random(1 * 100) + 1);
+    document.getElementById("sayi4").innerHTML=Math.floor(Math.random(1 * 100) + 1);
+    document.getElementById("sayi5").innerHTML=Math.floor(Math.random(1 * 100) + 1);
+    document.getElementById("sayi6").innerHTML=Math.floor(Math.random(1 * 100) + 1);
+    </script>
+</body>
+</html>
